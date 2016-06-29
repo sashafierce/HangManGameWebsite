@@ -10,10 +10,11 @@ The Signup and login page can only be accesed if a database named "dbtest" is fo
 
 >Place the contents of the repository "HangTheMan" in the htdocs folder of xamp directory in C directory then open any web browser. 
 
-Type "localhost/homepage.html" in place of url and navigate.
+>Type "localhost/homepage.html" in place of url and navigate.
 
 >My database table has four columns namely : user_id ,username , email , password .
->It was tested using the following sql commands and the same can be used to check the website's working   :
+
+The following sql commands were used for testing :
 
 >CREATE DATABASE `dbtest` ;
 >CREATE TABLE `dbtest`.`users` (
