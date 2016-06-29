@@ -1,0 +1,23 @@
+
+<style>
+a:link    {color:#D3D3D3; background-color:transparent; text-decoration:none}
+a:visited {color:#D3D3D3; background-color:transparent; text-decoration:none}
+a:hover   {color:#D3D3D3; background-color:transparent; text-decoration:underline}
+a:active  {color:#D3D3D3; background-color:transparent; text-decoration:underline}
+ </style>
+<html>
+
+<head><?php echo $userRow['username']; ?>&nbsp;<a href="logout.php?logout"><font size = 15>Sign Out</font> </a>
+	<link rel="stylesheet" href="hang.css" type="text/css" />
+<script src = "hang.js"> </script></head><h1><font size = 20>Hangman</font ><br>
+  <body background = "game.jpg">
+<p id="ratefeld"></p>
+<form name="rateformular">
+<input name="ratezeichen" type="text" size="5" maxlength="1">
+<input name="ratebutton" type="button" value="Guess" onClick="pruefeZeichen()">
+
+<p id="gerateneBuchstaben">Wrong Letters:</p>
+<br />
+<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+</form>
+</body></html>
